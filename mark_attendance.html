@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mark Attendance</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Mark Attendance</h2>
+    <form method="POST">
+      <input name="event" placeholder="Event Name" required>
+      <input name="attendee" placeholder="Student Name" required>
+      <select name="status">
+        <option value="Present">Present</option>
+        <option value="Absent">Absent</option>
+      </select>
+      <button type="submit">Mark</button>
+    </form>
+    <a href="/dashboard">Back</a>
+  </div>
+</body>
+</html>
